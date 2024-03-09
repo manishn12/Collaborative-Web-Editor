@@ -1,9 +1,7 @@
 import { io, Socket } from "socket.io-client";
 
 export const initSocket = async (): Promise<Socket> => {
-  // console.log(import.meta.env.VITE_BACKEND_URL);
-
-  const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000")
+  const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
   const options = {
     reconnectionAttempts: Infinity,
     timeout: 1000,
