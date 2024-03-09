@@ -7,5 +7,5 @@ export const initSocket = async (): Promise<Socket> => {
     timeout: 1000,
     transports: ["websocket"],
   };
-  return io("/", options);
+  return io(import.meta.env.VITE_BACKEND_URL, options);
 };
