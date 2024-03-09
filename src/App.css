@@ -1,0 +1,145 @@
+.homeWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+}
+
+.formWrapper {
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+a {
+  color: #4aee88;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.inputBox {
+  background: #eee;
+  margin-bottom: 14px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease-out;
+  font-size: 16px;
+}
+
+.joinBtn,
+.leaveBtn {
+  background: #4aee88;
+  width: 100px;
+  margin-left: auto;
+  transition: 0.3s ease-out;
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+  background: #2b824c;
+}
+
+.createInfo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.createNewBtn {
+  text-decoration: none;
+  border-bottom: 1px solid #4aee88;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.createNewBtn:hover {
+  border-bottom: 1px solid #2b824c;
+  color: #2b824c;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.clientList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.username {
+  margin-top: 10px;
+  font-size: 5px;
+}
+.logo {
+  border-bottom: 1px solid #424242;
+  padding: 10px;
+}
+.leaveBtn {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.editorPage {
+  height: 100vh;
+}
+
+.cm-editor {
+  font-size: 15px;
+  line-height: 1.6;
+  padding-top: 6px;
+}
+
+.logoClass {
+  height: 100px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
